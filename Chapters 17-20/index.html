@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // Task 1
+        var emptyArrOfArrays=[[],[]];
+        // Task 2
+        var emptyArrOfArrays=[[0,1,2,3],[1,0,1,2],[2,1,0,1]];
+        // Task 3
+        for(var i=1;i<11;i++){
+            document.write(i +"<br>");}
+        // Task 4
+        var table= +prompt('Enter a Number to display its table');
+        var tableUntil= +prompt('Enter a Number to display table upto that times');
+        document.write(`Multiplication table of ${table} ${'<br>'} Length ${tableUntil} ${'<br>'}`);
+        for(var i=1;i<=tableUntil;i++){
+            document.write(table +"*"+ i + "=" + table*i+"<br>");
+        }
+        // Task 5
+        var fruits = ["apple", "banana", "mango", "orange","strawberry"];
+        for(var i=0;i<=fruits.length;i++){
+            document.write(fruits[i]+"<br>");
+        }
+        for(var i=0;i<=fruits.length;i++){
+            document.write("Element at "+ i + " index is " + fruits[i]+"<br>");
+        }
+        // Task 6
+        document.write("Counting:"+"<br>")
+        for(var i=1;i<=15;i++){
+            document.write([i]+" ");
+        }
+        document.write("<br>"+"Reverse Counting:"+"<br>")
+        for(var i=10;i>0;i--){
+            document.write([i]+" ");
+        }
+        document.write("<br>"+"Even:"+"<br>")
+        for(var i=0;i<21;i=i+2){
+            document.write([i]+" ");
+        }
+        document.write("<br>"+"Odd:"+"<br>")
+        for(var i=1;i<20;i=i+2){
+            document.write([i]+" ");
+        }
+        document.write("<br>"+"Series:"+"<br>")
+        for(var i=2;i<21;i=i+2){
+            document.write([i]+"k ");
+        }
+        // Task 7
+        var a = ["cake", "apple pie", "cookie", "chips", "patties"];
+        var userInp=prompt("Welcome to ABC Bakery. What do you want to order Sir/Ma'am")
+        // Task 8
+        var a = [24, 53, 78, 91, 12];
+        var largest = a[0];
+        for (var i = 0; i < a.length; i++) {
+        if (a[i] > largest ) {
+            largest = a[i];}
+        }
+        document.write("<br>"+"Array Items: ")
+        for (var i = 0; i < a.length; i++) {
+        document.write(a[i]+ " ")
+        }
+        document.write('The largest number is: '+ largest +"<br>");
+        // Task 9
+        var a = [24, 53, 78, 91, 12];
+        var smallest = a[0];
+        for (var i = 0; i < a.length; i++) {
+        if (a[i] < smallest ) {
+            smallest = a[i];}
+        }
+        document.write("<br>"+"Array Items: ")
+        for (var i = 0; i < a.length; i++) {
+        document.write(a[i]+ " ")
+        }
+        document.write('The largest number is: '+ smallest+"<br>");
+        // Task 10
+        for(var i=1;i<=20;i++){
+            document.write(5*i+" ");
+        }
+    </script>
+</body>
+</html>
